@@ -1,11 +1,10 @@
 <?php
-$a=78;
-$b='78';
-if ($a===$b){
-    echo "$a равна переменной $b типу";
-} else {
-    echo '$a равна $b по значению';
-}
+define("DAYS_COUNT",7);
+
+echo '<pre>'.DAYS_COUNT;
+
+const MONTH_COUNT =12;
+
+echo '<pre>'.MONTH_COUNT;
 
 
-?>
