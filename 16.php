@@ -1,7 +1,13 @@
 <?php
-$age=20;
-$name="Denys";
-echo "My name is: $name";
+$a= 20;
+$b=35;
+if ($a>$b)
+{
+    echo $a;
+}
+else {
+   echo $b;
+}
 
 
 

@@ -1,8 +1,11 @@
 <?php
-$age=20;
-$name="Denys";
-echo "My name is: $name";
-
+$a=78;
+$b='78';
+if ($a===$b){
+    echo "$a равна переменной $b типу";
+} else {
+    echo '$a равна $b по значению';
+}
 
 
 ?>
